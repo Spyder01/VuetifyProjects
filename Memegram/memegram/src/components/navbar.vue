@@ -1,6 +1,6 @@
 <template>
 <nav>
-    <v-app-bar dark :color=themeColor>
+    <v-app-bar app dark :color=themeColor>
      <v-toolbar-title class='text-h4'><span class='font-weight-thin white--text'>MEME</span><span class='title font-weight-thin'>Gram</span></v-toolbar-title>
     </v-app-bar>
 </nav>

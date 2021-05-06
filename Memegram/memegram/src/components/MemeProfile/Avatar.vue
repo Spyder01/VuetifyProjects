@@ -1,5 +1,5 @@
 <template>
-<v-avatar :color="color" id="avatar" dark size="150">
+<v-avatar :elevation='5' :color="color" id="avatar" dark size="110">
 <v-img :src="src" @click='Changer()'></v-img>
 </v-avatar>
 
@@ -48,7 +48,7 @@ export default {
 <style scoped>
  #avatar {
     position: relative;
-    bottom: 54px;
+    margin: 5%;
  }
 
  </style>

@@ -6,12 +6,12 @@ import About from '../views/About.vue'
 Vue.use(VueRouter)
 
 const routes = [{
-        path: '/',
+        path: '/memes',
         name: 'MemeProfile',
         component: MemeProfile
     },
     {
-        path: '/about',
+        path: '/',
         name: 'About',
         component: About
     }

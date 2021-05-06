@@ -1,5 +1,24 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <v-app>
+    <navbar />
+    <RowColumn />
+  </v-app>
 </template>
+
+<script>
+import navbar from '../components/navbar'
+import RowColumn from '../components/MemeGenerator/RowColumns'
+
+export default {
+  name: 'MemeGenerator',
+  components: {
+     navbar, RowColumn
+  }
+}
+</script>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
+</style>
