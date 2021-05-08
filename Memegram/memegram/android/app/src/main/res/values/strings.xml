@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">memegram</string>
+    <string name="title_activity_main">memegram</string>
+    <string name="package_name">com.suhan.memegram</string>
+    <string name="custom_url_scheme">com.suhan.memegram</string>
+</resources>

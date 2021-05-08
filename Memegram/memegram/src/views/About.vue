@@ -1,5 +1,5 @@
 <template>
-    <v-app v-touch:swipe.left='MemeGenerator'>
+    <v-app v-touch:swipe.left='ProfileGen'>
     <navbar />
     <RowColumn />
     <BottomBar/>
@@ -15,6 +15,11 @@ export default {
   name: 'MemeGenerator',
   components: {
      navbar, RowColumn, BottomBar
+  },
+  methods: {
+      ProfileGen () {
+            this.$router.push('memes')
+        }
   }
 }
 </script>
