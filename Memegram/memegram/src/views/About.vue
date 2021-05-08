@@ -1,18 +1,20 @@
 <template>
-    <v-app>
+    <v-app v-touch:swipe.left='MemeGenerator'>
     <navbar />
     <RowColumn />
+    <BottomBar/>
   </v-app>
 </template>
 
 <script>
 import navbar from '../components/navbar'
 import RowColumn from '../components/MemeGenerator/RowColumns'
+import BottomBar from '../components/Bottombar'
 
 export default {
   name: 'MemeGenerator',
   components: {
-     navbar, RowColumn
+     navbar, RowColumn, BottomBar
   }
 }
 </script>

@@ -1,7 +1,8 @@
 <template>
 <nav>
+
     <v-app-bar app dark :color=themeColor>
-     <v-toolbar-title class='text-h4'><span class='font-weight-thin white--text'>MEME</span><span class='title font-weight-thin'>Gram</span></v-toolbar-title>
+     <v-toolbar-title class='text-h4'><span class='font-weight-thin white--text'>MEME</span><span class='title font-weight-thin white--text'>Gram</span></v-toolbar-title>
     </v-app-bar>
 </nav>
 
@@ -15,6 +16,11 @@ export default {
         themeColor: {
             type: String,
             default: "#6e387b"
+        },
+        data () {
+            return {
+                drawer: null
+            }
         }
     }
 }
